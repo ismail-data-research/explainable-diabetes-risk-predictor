@@ -1,0 +1,43 @@
+{
+  "best_model": "XGBoost",
+  "raw_features": [
+    "HighBP",
+    "HighChol",
+    "CholCheck",
+    "BMI",
+    "Smoker",
+    "Stroke",
+    "HeartDiseaseorAttack",
+    "PhysActivity",
+    "Fruits",
+    "Veggies",
+    "HvyAlcoholConsump",
+    "AnyHealthcare",
+    "NoDocbcCost",
+    "GenHlth",
+    "MentHlth",
+    "PhysHlth",
+    "DiffWalk",
+    "Sex",
+    "Age",
+    "Education",
+    "Income"
+  ],
+  "engineered_features": [
+    "Health_Risk_Score",
+    "BMI_HighBP_Interaction",
+    "Lifestyle_Risk_Score"
+  ],
+  "seed": 42,
+  "test_metrics": {
+    "Model": "XGBoost",
+    "Accuracy": 0.718,
+    "Precision": 0.3166,
+    "Recall": 0.7278,
+    "F1": 0.4412,
+    "ROC_AUC": 0.8004,
+    "PR_AUC": 0.4101,
+    "Val_PR_AUC": 0.4125,
+    "Train_Time_s": 1.8989
+  }
+}
